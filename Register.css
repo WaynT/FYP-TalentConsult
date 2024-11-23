@@ -1,0 +1,85 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 695px;
+}
+
+.u-section-1 .u-form-1 {
+  height: 537px;
+  background-image: none;
+  width: 659px;
+  margin: 60px auto;
+}
+
+.u-section-1 .u-label-1 {
+  letter-spacing: 0px;
+}
+
+.u-section-1 .u-input-1 {
+  --radius: 50px;
+}
+
+.u-section-1 .u-label-2 {
+  letter-spacing: 0px;
+}
+
+.u-section-1 .u-input-2 {
+  --radius: 50px;
+}
+
+.u-section-1 .u-label-3 {
+  letter-spacing: 0px;
+}
+
+.u-section-1 .u-input-3 {
+  --radius: 50px;
+}
+
+.u-section-1 .u-form-group-4 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-label-4 {
+  letter-spacing: 0px;
+}
+
+.u-section-1 .u-input-4 {
+  --radius: 50px;
+}
+
+.u-section-1 .u-form-group-5 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-label-5 {
+  letter-spacing: 0px;
+}
+
+.u-section-1 .u-input-5 {
+  --radius: 50px;
+}
+
+.u-section-1 .u-label-6 {
+  width: 100px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  --radius: 50px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-form-1 {
+    width: 570px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-form-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-form-1 {
+    width: 340px;
+  }
+}

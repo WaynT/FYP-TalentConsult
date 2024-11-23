@@ -1,0 +1,208 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 570px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  --radius: 50px;
+  font-size: 1.5rem;
+  margin: 20px auto 0;
+}
+
+.u-section-1 .u-group-1 {
+  --radius: 50px;
+  height: auto;
+  background-image: none;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  min-height: 205px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-group-1 {
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 464px;
+}.u-section-3 .u-sheet-1 {
+  min-height: 464px;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 737px;
+}
+
+.u-section-1 .u-form-1 {
+  background-image: none;
+  height: 605px;
+  --radius: 50px;
+  width: 659px;
+  margin: -10px auto 60px;
+}
+
+.u-section-1 .u-label-1 {
+  letter-spacing: 0px;
+}
+
+.u-section-1 .u-input-1 {
+  --radius: 50px;
+}
+
+.u-section-1 .u-label-2 {
+  letter-spacing: 0px;
+}
+
+.u-section-1 .u-input-2 {
+  --radius: 50px;
+}
+
+.u-section-1 .u-label-3 {
+  letter-spacing: 0px;
+}
+
+.u-section-1 .u-input-3 {
+  --radius: 50px;
+}
+
+.u-section-1 .u-form-group-4 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-label-4 {
+  letter-spacing: 0px;
+}
+
+.u-section-1 .u-input-4 {
+  --radius: 50px;
+}
+
+.u-section-1 .u-form-group-5 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-label-5 {
+  letter-spacing: 0px;
+}
+
+.u-section-1 .u-input-5 {
+  --radius: 50px;
+}
+
+.u-section-1 .u-label-6 {
+  width: 100px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  --radius: 50px;
+  width: 20%;
+  padding: 10px 0;
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-form-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-form-1 {
+    width: 340px;
+  }
+}
+
+/* CSS code */
+#popupForm {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 2px solid black;
+  z-index: 9999;
+}
+
+.u-hidden {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Apply Flexbox to the container layout */
+    .u-container-layout-1 {
+        display: flex;
+        justify-content: center;
+        padding: 0; /* Remove any padding from the container */
+    }
+
+    /* General table styling */
+    table {
+        width: 100%; /* Ensure the table takes up full width */
+        max-width: 1000px; /* Limit the max-width to prevent excessive stretching */
+        margin: 0; /* Remove default margin */
+        border-collapse: collapse;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    /* Table borders and padding */
+    table, th, td {
+        border: 1px solid #ddd;
+        padding: 25px; /* Consistent padding for all cells */
+    }
+
+    /* Header row styling */
+    th {
+        background-color: #E21818 !important;
+        color: white !important;
+        font-weight: 600;
+        text-align: center;
+        font-size: 18px; /* Larger font size for header */
+    }
+
+    /* Even row background color */
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    /* Row hover effect */
+    tr:hover {
+        background-color: #f1f1f1;
+        transition: background-color 0.3s ease;
+    }
+
+    /* Responsive table adjustments */
+    @media (max-width: 768px) {
+        table {
+            font-size: 16px; /* Adjust font size for smaller screens */
+        }
+
+        th, td {
+            padding: 15px; /* Adjust padding for smaller screens */
+        }
+    }
+
+    /* Add this to Blacklists.css */
+    button.u-btn-round {
+    border-radius: 10px ;
+    width: 120px ;
+    height: 45px ;
+    }
+
